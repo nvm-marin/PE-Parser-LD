@@ -1,0 +1,60 @@
+﻿  PE.cpp
+  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'src/main.cpp')
+      C:\Users\colta\source\repos\PeParser-LD\PeParser-LD\dependencies\32include\glad\glad.h(32,9):
+      see previous definition of 'APIENTRY'
+  
+C:\Users\colta\source\repos\PeParser-LD\PeParser-LD\src\main.cpp(395,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\colta\source\repos\PeParser-LD\PeParser-LD\src\main.cpp(467,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\colta\source\repos\PeParser-LD\PeParser-LD\src\main.cpp(467,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\colta\source\repos\PeParser-LD\PeParser-LD\src\main.cpp(536,74): warning C4838: conversion from 'LONG' to 'uint32_t' requires a narrowing conversion
+C:\Users\colta\source\repos\PeParser-LD\PeParser-LD\src\main.cpp(798,84): warning C4838: conversion from 'ULONGLONG' to 'uint32_t' requires a narrowing conversion
+C:\Users\colta\source\repos\PeParser-LD\PeParser-LD\src\main.cpp(798,84): warning C4244: 'initializing': conversion from 'ULONGLONG' to 'uint32_t', possible loss of data
+C:\Users\colta\source\repos\PeParser-LD\PeParser-LD\src\main.cpp(813,102): warning C4838: conversion from 'ULONGLONG' to 'uint32_t' requires a narrowing conversion
+C:\Users\colta\source\repos\PeParser-LD\PeParser-LD\src\main.cpp(813,102): warning C4244: 'initializing': conversion from 'ULONGLONG' to 'uint32_t', possible loss of data
+C:\Users\colta\source\repos\PeParser-LD\PeParser-LD\src\main.cpp(814,100): warning C4838: conversion from 'ULONGLONG' to 'uint32_t' requires a narrowing conversion
+C:\Users\colta\source\repos\PeParser-LD\PeParser-LD\src\main.cpp(814,100): warning C4244: 'initializing': conversion from 'ULONGLONG' to 'uint32_t', possible loss of data
+C:\Users\colta\source\repos\PeParser-LD\PeParser-LD\src\main.cpp(815,100): warning C4838: conversion from 'ULONGLONG' to 'uint32_t' requires a narrowing conversion
+C:\Users\colta\source\repos\PeParser-LD\PeParser-LD\src\main.cpp(815,100): warning C4244: 'initializing': conversion from 'ULONGLONG' to 'uint32_t', possible loss of data
+C:\Users\colta\source\repos\PeParser-LD\PeParser-LD\src\main.cpp(816,98): warning C4838: conversion from 'ULONGLONG' to 'uint32_t' requires a narrowing conversion
+C:\Users\colta\source\repos\PeParser-LD\PeParser-LD\src\main.cpp(816,98): warning C4244: 'initializing': conversion from 'ULONGLONG' to 'uint32_t', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(4710,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+  (compiling source file 'src/main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(4710,18):
+      the template instantiation context (the oldest one first) is
+          C:\Users\colta\source\repos\PeParser-LD\PeParser-LD\src\main.cpp(391,27):
+          see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\colta\source\repos\PeParser-LD\PeParser-LD\src\main.cpp(391,27):
+              see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'TreeViewGui'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(793,17):
+          see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned int,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned int
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(949,18):
+          see reference to function template instantiation '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned int,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned int
+          ]
+  
+  glad.c
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 2644 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  PeParser-LD.vcxproj -> C:\Users\colta\source\repos\PeParser-LD\Release\PeParser-LD.exe
